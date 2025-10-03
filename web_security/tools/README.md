@@ -9,3 +9,14 @@ https://webhook.site/
 Useful to test PHP
 
 https://onlinephp.io/
+
+
+# CyberChef
+Tool per creare pipeline per dati
+
+# SQLMap (vietato)
+Fa injection automaticamente
+
+# NMAP (vietato)
+
+# NEXPLOIT(vietato)
