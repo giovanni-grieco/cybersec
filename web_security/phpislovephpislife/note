@@ -1,0 +1,11 @@
+Versione 7.1.8
+
+viene effettuato un eval che può essere sfruttato nella chiamata di funzione "create_function"
+
+C'è un blacklisting aggressivo in input che forse andrebbe rotto oppure no... magari il dev si è dimenticato di blacklistare qualcosa
+
+Tutte le funzioni sono stato rimosse, ci rimangono quindi poche cose.
+
+potenziale payload:
+
+return 1+1; } <PAYLOAD codice PHP> //
