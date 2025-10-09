@@ -9,4 +9,5 @@ headers = {
 
 result = requests.get("http://web-04.challs.olicyber.it/users", headers=headers)
 print(result.status_code)
+print(result.headers)
 print(result.text)

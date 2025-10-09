@@ -17,4 +17,5 @@ form_data = {
 response = requests.post("http://web-09.challs.olicyber.it/login", headers=headers, json=form_data)
 
 print(response.status_code)
+print(response.headers)
 print(response.text)

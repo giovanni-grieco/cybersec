@@ -4,6 +4,6 @@ import requests
 
 
 result = requests.get("http://web-01.challs.olicyber.it")
-print(result.text)
 print(result.status_code)
-
+print(result.headers)
+print(result.text)
