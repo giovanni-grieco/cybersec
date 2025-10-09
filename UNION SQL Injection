@@ -1,0 +1,69 @@
+Lo union permette di unire più select
+
+Possiamo far fuoriuscire dati riservati in quelle aprti del sito "attaccati" direttamente al DB, tipo
+dopo il login c'è "Ciao <Username>" e quindi in quel campo possiamo infilarci informazioni.
+
+select column1, column2 from table1 union select column1, column2 from table2;
+
+fa un append della prima lista alla seconda
+
+Le 2 sottoquery devono avere lo stesso numero di colonne
+il tipo di dato delle colonne deve essere lo stesso. deve esserci il match sul tipo di dato.
+
+noi non sappiamo le colonne della tabella originale e inoltre nemmeno cosa c'è a sinistra del
+comando SQL scritto dallo sviluppatore
+
+Il problema è quindi la blackbox.
+
+Quindi comincia il "guessing" game.
+
+
+in SQL si può fare 'select 1' ritorna una tabella con 1 riga, 1 colonna con valore 1
+quindi si automatizza con brute force concatenando più colonne artificiali.
+
+oppure con ORDER BY N
+
+che ci permette di capire con ricerca telescopica di capire quante colonne ci sono.
+
+
+Come si elimina il risultato lecito originale della query?
+
+Si utilizza AND 0=1 che è sempre falso, e rimarrà la tabella unita.
+
+
+Information_schema -> in mysql si possono ottenre informazioni riflessive del database stesso, le tabelle e i loro schemi
+
+in mysql INFORMATION_SCHEMA ha gli "schemata" (i database)
+tables (tabelle in ogni database)
+columns (le colonne delle tabelle)
+
+INFORMATION_SCHEMA.schemata
+INFORMATION_SCHEMA.tables
+INFORMATION_SCHEMA.columns
+
+
+SELECT schema_name FROM information_schema.schemata (il 99% delle volte è consentito)
+
+SELECT table_name from information_schema.tables --> ritorna tutte le tabelle di tutti i "database"
+
+quindi di solito voglio attaccare il database dell'applicazione stessa, ma anche no, potrei ottenere informazioni laterlamente da altre db che girano sullo stesso "nodo"
+
+la funziona DATABASE() mi ritorna lo schema corrente
+
+ad esempio: SELECT table_name FROM information_schema.tables WHERE table_schema = 'someschema' (oppure DATABASE())
+
+
+Da quello otteniamo le tabelle
+
+
+
+dalle tabelle otteniamo il noem delle colonne
+
+SELECT column_name FROM information_schema.columns WHERE table_name = 'sometable'
+
+Oppure
+
+SELECT table_name,column_name FROM information_schema.columns WHERE table_schema = DATABASE()
+
+
+
