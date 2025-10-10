@@ -3,6 +3,8 @@ Lo union permette di unire più select
 Possiamo far fuoriuscire dati riservati in quelle aprti del sito "attaccati" direttamente al DB, tipo
 dopo il login c'è "Ciao <Username>" e quindi in quel campo possiamo infilarci informazioni.
 
+L'output deve essere mostrato, altrimenti bisogna fare blind.
+
 select column1, column2 from table1 union select column1, column2 from table2;
 
 fa un append della prima lista alla seconda

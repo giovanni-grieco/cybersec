@@ -1,0 +1,12 @@
+Immaginiamo che il frontend non ci dia alcun indizio sull'output 
+che proviene
+
+Quindi sfruttiamo la risposta booleana "del ho fatto il login" e "non ho fatto il login" per poter estrarre informazione
+
+In sostanza utilizziamo il successo e il fallimento del login
+
+per dedurre il dato che vogliamo ottenere dal nostro lato
+
+Si può usare 
+
+HEX(password) LIKE '0%'
