@@ -3,13 +3,13 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 
 # Area "Web Security 0/27"
 
-- *Headache - 1
-- *Sito Vuoto - 1
-- *Rick Roller - 1
-- *Time is Key - 1
+- *Headache - 1 (FATTO)
+- *Sito Vuoto - 1  (FATTO)
+- *Rick Roller - 1 (FATTO)
+- *Time is Key - 1 (FATTO)
 - *Click Me - 1
 - *Basic SQLi - 1
-- *Flags shop - 3
+- *Flags shop - 3 (FATTO)
 - *Cookie Monster Army - 4
 - *MEME SHOP - 5
 - *Admin's secret - 5

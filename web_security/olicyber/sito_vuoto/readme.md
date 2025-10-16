@@ -1,0 +1,1 @@
+La flag è divisa in 3 parti. é nel commento dell'HTML, e nel JS e nel CSS.
