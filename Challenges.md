@@ -7,12 +7,12 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - *Sito Vuoto - 1  (FATTO)
 - *Rick Roller - 1 (FATTO)
 - *Time is Key - 1 (FATTO)
-- *Click Me - 1
-- *Basic SQLi - 1
+- *Click Me - 1 (FATTO)
+- *Basic SQLi - 1 (FATTO)
 - *Flags shop - 3 (FATTO)
-- *Cookie Monster Army - 4
-- *MEME SHOP - 5
-- *Admin's secret - 5
+- *Cookie Monster Army - 4 (FATTO - 1 hint)
+- *MEME SHOP - 5 (FATTO)
+- *Admin's secret - 5 
 - *Light of Dark? - 6
 - Shells' Revenge - 6
 - Shell's Revenge 2 - 6

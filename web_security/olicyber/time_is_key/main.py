@@ -33,16 +33,19 @@ print(f'Average time: {avg_time}')
 
 base_delay = 1
 
-threshold_s = base_delay/2
-
-print(f"Using Threshold {threshold_s}s")
+print(f"Using Threshold {base_delay}s")
 
 result = ""
 attempts = 0
 length = 1
+max_length = 6
 
 found_char_flag = True
 while found_char_flag:
+    length_aware_threshold = (base_delay*(len(result)+1))
+    if len(result) == max_length:
+        break
+    print(f"Length aware threshold: {length_aware_threshold}s")
     found_char_flag = False
     if attempts == len(dictionary):
         length += 1
@@ -59,8 +62,7 @@ while found_char_flag:
         time = end_time - start_time
         time_s = time/1_000_000_000
         print(f"Tried {attempted_result} in {time_s}")
-        length_aware_threshold = (base_delay*(len(result)+1))
-        print(f"LAT: {length_aware_threshold}")
+        
         if time_s >= length_aware_threshold:
             result +=c
             found_char_flag = True
