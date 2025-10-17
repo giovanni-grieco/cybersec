@@ -12,8 +12,8 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - *Flags shop - 3 (FATTO)
 - *Cookie Monster Army - 4 (FATTO - 1 hint)
 - *MEME SHOP - 5 (FATTO)
-- *Admin's secret - 5 
-- *Light of Dark? - 6
+- *Admin's secret - 5 (FATTO)
+- *Light of Dark? - 6 
 - Shells' Revenge - 6
 - Shell's Revenge 2 - 6
 - A TOO small reminder... - 7
