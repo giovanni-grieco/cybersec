@@ -13,9 +13,9 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - *Cookie Monster Army - 4 (FATTO - 1 hint)
 - *MEME SHOP - 5 (FATTO)
 - *Admin's secret - 5 (FATTO)
-- *Light of Dark? - 6 
-- Shells' Revenge - 6
-- Shell's Revenge 2 - 6
+- *Light of Dark? - 6 (FATTO)
+- Shells' Revenge - 6 (FATTO)
+- Shell's Revenge 2 - 6 
 - A TOO small reminder... - 7
 - Password Changer 3000 - 7
 - ZioFrank - 7
@@ -29,9 +29,9 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 
 # Altre aree
 
-- *Gabibbo Says - 1
-- *FrittoMisto 1 - 4
-- *EasyNotes - 4
+- *Gabibbo Says - 1 (Fatto)
+- *FrittoMisto 1 - 4 (Fatto)
+- *EasyNotes - 4 
 - *Pincode - 4
 - *Sound of Silence - 4
 - FlagDownloader 1 - 6
