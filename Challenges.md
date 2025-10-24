@@ -21,9 +21,9 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - ZioFrank - 7
 - If you have no time, just don't wait - 7
 - I got magic - 7
-- C style login - 7
-- Curious George - 7
-- TIMP - 7
+- C style login - 7 (FATTO)
+- Curious George - 7 
+- TIMP - 7 (FATTO)
 - Sn4ck sh3nan1gans - 8
 
 
@@ -32,8 +32,8 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - *Gabibbo Says - 1 (Fatto)
 - *FrittoMisto 1 - 4 (Fatto)
 - *EasyNotes - 4 (non lo so fare, ha a che fare con I token JWT)
-- *Pincode - 4 (dice che non c'è bisogno del brute force)
-- *Sound of Silence - 4
+- *Pincode - 4 (Fatto)
+- *Sound of Silence - 4 (Fatto)
 - FlagDownloader 1 - 6
 - Flag Pass - 7
 - NFT gallery - 7
