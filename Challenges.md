@@ -15,8 +15,8 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 - *Admin's secret - 5 (FATTO)
 - *Light of Dark? - 6 (FATTO)
 - Shells' Revenge - 6 (FATTO)
-- Shell's Revenge 2 - 6 
-- A TOO small reminder... - 7
+- Shell's Revenge 2 - 6 (FATTO)
+- A TOO small reminder... - 7 
 - Password Changer 3000 - 7
 - ZioFrank - 7
 - If you have no time, just don't wait - 7
