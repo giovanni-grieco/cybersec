@@ -31,8 +31,8 @@ Gli esercizi con l'asterisco sono fortemente suggeriti, gli altri opzionali.
 
 - *Gabibbo Says - 1 (Fatto)
 - *FrittoMisto 1 - 4 (Fatto)
-- *EasyNotes - 4 
-- *Pincode - 4
+- *EasyNotes - 4 (non lo so fare, ha a che fare con I token JWT)
+- *Pincode - 4 (dice che non c'è bisogno del brute force)
 - *Sound of Silence - 4
 - FlagDownloader 1 - 6
 - Flag Pass - 7
